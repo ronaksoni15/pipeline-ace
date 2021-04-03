@@ -4,7 +4,7 @@ metadata:
   name: task-deploy-aceimg
 spec:
   params:
-    - default: ace
+    - default: cp4i
       description: release namespace
       name: namespace
       type: string
