@@ -5,7 +5,7 @@ metadata:
 spec:
   params:
   - name: namespace
-    default: ace
+    default: cp4i
     description: name of the namespace to deploy and to build image url
   - name: image_name
     default: ace-demo
