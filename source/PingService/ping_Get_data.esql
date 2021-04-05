@@ -4,7 +4,7 @@ CREATE COMPUTE MODULE ping_Get_data
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
 		SET OutputRoot = InputRoot;
-		SET OutputRoot.JSON.Data.Ping.sourceVersion = '2.1';
+		SET OutputRoot.JSON.Data.Ping.sourceVersion = '3.1';
     	SET OutputRoot.JSON.Data.Ping.server = ExecutionGroupLabel;
     	SET OutputRoot.JSON.Data.Ping.workPath = WorkPath;
     	SET OutputRoot.JSON.Data.Ping.msgFlow = MessageFlowLabel;
