@@ -1,4 +1,4 @@
-# ACE DevOps121
+# ACE DevOps12
 
 This repos can be used as example to implement an automatic deployment of an AppConnect integration server where the Cloud Pak for Integration is installed.
 The deployment is using Tekton pipeline.
